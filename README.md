@@ -1,6 +1,6 @@
 # almostapt-api
 
-An FastAPI based API for my AlmostAPT project identifying uncategorized, or threat groups without an official vendor identifier.
+A FastAPI based API for my AlmostAPT project identifying uncategorized, or threat groups without an official vendor identifier.
 
 ## Requirements
 
