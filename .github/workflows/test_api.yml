@@ -19,6 +19,6 @@ jobs:
     - name: insall coverage
       run: python3 -m pip install coverage
     - name: Run tests and collect coverage
-      run: coverage xml
+      run: coverage xml pytest /tests/test_api.py
     - name: Upload coverage reports to Codecov with GitHub Action
       uses: codecov/codecov-action@v2
